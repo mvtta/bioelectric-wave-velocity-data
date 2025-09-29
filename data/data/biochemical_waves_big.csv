@@ -1,0 +1,43 @@
+Value,Unit,Chemical_Gradient,Parameter_Type,Std_Dev,N,Intra,Inter,Organism,Tissue_Type,Context,Injured,Healthy,Signaling_Type,Citation
+6.7,μm/s,Calcium,Wave velocity,3.48,7.0,Yes,No,Xenopus laevis,Embryonic tissue,Mechanical injury,Yes,No,Calcium wave,Tung et al. 2024
+5.28,μm/s,Calcium,Wave velocity,1.89,8.0,No,Yes,Xenopus laevis,Embryonic tissue,Inter-embryo communication,Mixed,Mixed,Calcium wave,Tung et al. 2024
+2.36,μm/s,Calcium,Wave velocity,1.66,9.0,Yes,No,Xenopus laevis,Embryonic tissue,Uninjured recipient embryo,No,Yes,Calcium wave,Tung et al. 2024
+21.0,μm/s,Calcium,Wave velocity,3.0,,Yes,Yes,Rat,Cortical astrocytes,ATP-triggered calcium waves,No,Yes,Intercellular calcium wave,Arcuino et al. 2002
+25.0,μm/s,Calcium,Wave velocity,,,Yes,No,Rat,Cortical astrocytes,Intracellular wave propagation,No,Yes,Intracellular calcium wave,Duchen 2000
+40.0,μm/s,Calcium,Wave velocity,,,Yes,No,Rat,Cortical astrocytes,Mitochondria depolarized,No,Yes,Intracellular calcium wave,Duchen 2000
+15.0,μm/s,Calcium,Wave velocity,,,Yes,No,Chick embryo,Circular smooth muscle,Embryonic gut peristalsis,No,Yes,Gap junction calcium wave,Chevalier 2018
+350.0,μm/min,cAMP,Wave velocity,,,No,Yes,Dictyostelium,Amoeba collective,Aggregation phase,No,Yes,cAMP spiral wave,Ford et al. 2023
+175.0,μm/min,cAMP,Wave velocity,,,No,Yes,Dictyostelium,Amoeba collective,Late aggregation phase,No,Yes,cAMP spiral wave,Ford et al. 2023
+6.0,min,cAMP,Wave period,,,No,Yes,Dictyostelium,Amoeba collective,Early aggregation,No,Yes,cAMP oscillation,Hashimura et al. 2019
+4.0,min,cAMP,Wave period,,,No,Yes,Dictyostelium,Amoeba collective,Tight mound formation,No,Yes,cAMP oscillation,Hashimura et al. 2019
+50.0,μm/s,cAMP,Cell velocity response,,,No,Yes,Dictyostelium rasC-,Amoeba cells,50 nM cAMP pulses,No,Variable,Chemotactic response,Soll et al. 2004
+11.0,μm/s,ATP,Wave velocity,,,No,Yes,Mouse cochlear,Supporting cells,ATP-induced Ca2+ waves,No,Yes,ATP-calcium coupled wave,Ceriani et al. 2016
+200.0,μm,ATP,Wave propagation distance,,,No,Yes,Mouse cochlear,Supporting cells,Maximum ATP wave range,No,Yes,ATP release wave,Ceriani et al. 2016
+215.0,μm,ATP,Wave radius,22.0,,No,Yes,Astrocytes,Cortical astrocytes,ATP-triggered calcium waves,No,Yes,ATP-mediated calcium wave,Arcuino et al. 2002
+0.1,pH units/μm,pH,Gradient steepness,,,Yes,Yes,Various cell lines,Migrating cells,Extracellular pH gradient,No,Yes,pH chemotaxis,Li & Sun 2024
+7.2,pH,pH,Intracellular pH baseline,,,Yes,No,Various cell lines,Cytoplasm,Normal physiological range,No,Yes,pH homeostasis,Li & Sun 2024
+-33.1,mV,Potassium,Half-activation voltage,1.7,4.0,Yes,No,Mouse,Inner hair cells,P19 developmental stage,No,Yes,K+ channel activation,Marcotti et al. 2003
+-20.3,mV,Potassium,Half-activation voltage,2.8,8.0,Yes,No,Mouse,Inner hair cells,Neonatal stage,No,Yes,K+ channel activation,Marcotti et al. 2003
+8.8,nA,Potassium,Maximum current,,,Yes,No,Mouse,Inner hair cells (apical),Mature K+ current,No,Yes,K+ current,Marcotti et al. 2003
+50.0,μM/s,Chloride,Uptake velocity,,,Yes,No,Various neurons,Neurons,NKCC1-mediated uptake,No,Yes,Cl- transport,Watanabe & Fukuda 2015
+8.0,seconds,Chloride,Action potential duration,,,Yes,No,Chick embryo,Skeletal muscle,Embryonic day 13-21,No,Yes,Cl- action potential,Steele 1990
+100.0,m/s,Sodium,Action potential velocity,,,Yes,Yes,Various,Myelinated neurons,Fast neural transmission,No,Yes,Na+ action potential,General neuroscience
+1.0,m/s,Sodium,Action potential velocity,,,Yes,Yes,Various,Unmyelinated neurons,Slow neural transmission,No,Yes,Na+ action potential,General neuroscience
+2.5,mM,Magnesium,Intracellular concentration,,,Yes,No,Various cells,Cytoplasm,Physiological range,No,Yes,Mg2+ homeostasis,Dalmas et al. 2010
+40.0,Å,Magnesium,Transport pore length,,,Yes,No,Thermotoga maritima,CorA transporter,Mg2+ transport mechanism,No,Yes,Mg2+ transport,Dalmas et al. 2010
+100.0,μm,Nitric oxide,Diffusion distance,,,No,Yes,Various,Various tissues,NO diffusion range,Variable,Variable,NO signaling,Bradley et al. 2010
+150.0,μm,Nitric oxide,Motor axon length,,,Yes,Yes,Zebrafish,Motor neurons,72 hpf development,No,Yes,NO-regulated development,Bradley et al. 2010
+20.1,% increase,Nitric oxide,NO concentration change,3.5,,Yes,Yes,Rabbit,Thigh muscle,0.48 W/cm² ultrasound,No,Yes,Ultrasound-induced NO,Sugita et al. 2008
+0.08,μm/s,Bicoid,Advection velocity,,,Yes,No,Drosophila,Embryonic cytoplasm,Morphogen gradient formation,No,Yes,Morphogen gradient,Hecht et al. 2009
+0.3,μm²/s,Bicoid,Diffusion coefficient,,,Yes,No,Drosophila,Embryonic cytoplasm,FRAP measurement,No,Yes,Morphogen diffusion,Wartlick et al. 2009
+100.0,μm,Bicoid,Gradient length scale,,,Yes,No,Drosophila,Embryonic axis,Measured gradient λ,No,Yes,Morphogen gradient,Wartlick et al. 2009
+100.0,μm²/s,FGF8,Diffusion coefficient,,,No,Yes,Zebrafish,Extracellular space,Morphogen transport,No,Yes,Morphogen diffusion,Howard 2011
+200.0,μm,FGF8,Gradient length scale,,,No,Yes,Zebrafish,Embryonic tissue,Measured gradient length,No,Yes,Morphogen gradient,Howard 2011
+5.0,seconds,Calcium,Wave crossing time,,,Yes,No,Mouse,Egg cytoplasm,Initial fertilization wave,No,Yes,Fertilization Ca2+ wave,Machaty 2024
+1.0,seconds,Calcium,Wave crossing time,,,Yes,No,Mouse,Egg cytoplasm,Later fertilization waves,No,Yes,Fertilization Ca2+ wave,Machaty 2024
+15.0,seconds,Calcium,Spike duration,,,Yes,Yes,Chick embryo,Marginal zone,Primitive streak formation,No,Yes,Developmental Ca2+ spikes,Lee et al. 2024
+200.0,μm,Calcium,Wave span distance,,,No,Yes,Chick embryo,Embryonic tissue,Long-distance Ca2+ waves,No,Yes,Long-range Ca2+ wave,Lee et al. 2024
+3.0,fold decrease,Cdk1/Cyclins,Wave speed change,,,Yes,No,Drosophila,Embryonic nuclei,Approach to MZT,No,Yes,Mitotic wave,Di Talia 2022
+2.0,minutes,Cdk1/Cyclins,Synchrony window,,,Yes,No,Drosophila,Embryonic nuclei,Nuclear division timing,No,Yes,Mitotic synchrony,Di Talia 2022
+10.0,μm/s,ATP/ADP,Metabolic wave velocity,,,Yes,Yes,Various cells,Metabolically active cells,Glycolytic oscillations,No,Yes,Metabolic wave,Zhan et al. 2025
+1540.0,m/s,Mechanical/acoustic,Acoustic wave velocity,,4.0,Yes,Yes,Zebrafish,Embryonic tissue,Yolk and blastula,No,Yes,Acoustic wave,Titov et al. 2023

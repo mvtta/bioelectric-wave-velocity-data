@@ -1,0 +1,28 @@
+Entry_ID,Value,Unit,Chemical_Gradient,Parameter_Type,Tissue_Type,Organism,Context,Citation_Key,Intra_Inter,Health_Status,Statistical_Data
+BWV001,6.7,μm/s,Calcium,Wave velocity,Embryonic tissue,Xenopus laevis,Mechanical injury,Tung et al. 2024,Yes/No,Yes/No,"SD: 3.48, N: 7.0"
+BWV002,5.28,μm/s,Calcium,Wave velocity,Embryonic tissue,Xenopus laevis,Inter-embryo communication,Tung et al. 2024,No/Yes,Mixed/Mixed,"SD: 1.89, N: 8.0"
+BWV003,2.36,μm/s,Calcium,Wave velocity,Embryonic tissue,Xenopus laevis,Uninjured recipient embryo,Tung et al. 2024,Yes/No,No/Yes,"SD: 1.66, N: 9.0"
+BWV004,21.0,μm/s,Calcium,Wave velocity,Cortical astrocytes,Rat,ATP-triggered calcium waves,Arcuino et al. 2002,Yes/Yes,No/Yes,"SD: 3.0, N: nan"
+BWV005,25.0,μm/s,Calcium,Wave velocity,Cortical astrocytes,Rat,Intracellular wave propagation,Duchen 2000,Yes/No,No/Yes,Not reported
+BWV006,40.0,μm/s,Calcium,Wave velocity,Cortical astrocytes,Rat,Mitochondria depolarized,Duchen 2000,Yes/No,No/Yes,Not reported
+BWV007,15.0,μm/s,Calcium,Wave velocity,Circular smooth muscle,Chick embryo,Embryonic gut peristalsis,Chevalier 2018,Yes/No,No/Yes,Not reported
+BWV008,5.7,μm/s,Calcium,Wave velocity,Egg cytoplasm,Xenopus laevis,Fertilization wave (center),Fontanilla & Nuccitelli 1998,Yes/No,No/Yes,Not reported
+BWV009,8.9,μm/s,Calcium,Wave velocity,Egg cytoplasm,Xenopus laevis,Fertilization wave (cortex),Fontanilla & Nuccitelli 1998,Yes/No,No/Yes,Not reported
+BWV010,7.5,μm/s,Calcium,Wave velocity,Egg cytoplasm,Xenopus laevis,Sperm-induced fertilization,Nuccitelli et al. 1993,Yes/No,No/Yes,"SD: 0.05, N: nan"
+BWV011,9.7,μm/s,Calcium,Wave velocity,Egg cytoplasm,Xenopus laevis,Fertilization calcium wave (animal hemisphere),Busa & Nuccitelli 1985,Yes/No,No/Yes,"SD: 1.5, N: 4.0"
+BWV012,350.0,μm/min,cAMP,Wave velocity,Amoeba collective,Dictyostelium,Aggregation phase,Ford et al. 2023,No/Yes,No/Yes,Not reported
+BWV013,175.0,μm/min,cAMP,Wave velocity,Amoeba collective,Dictyostelium,Late aggregation phase,Ford et al. 2023,No/Yes,No/Yes,Not reported
+BWV014,6.0,min,cAMP,Wave period,Amoeba collective,Dictyostelium,Early aggregation,Hashimura et al. 2019,No/Yes,No/Yes,Not reported
+BWV015,4.0,min,cAMP,Wave period,Amoeba collective,Dictyostelium,Tight mound formation,Hashimura et al. 2019,No/Yes,No/Yes,Not reported
+BWV016,50.0,μm/s,cAMP,Cell velocity response,Amoeba cells,Dictyostelium rasC-,50 nM cAMP pulses,Soll et al. 2004,No/Yes,No/Variable,Not reported
+BWV017,11.0,μm/s,ATP,Wave velocity,Supporting cells,Mouse cochlear,ATP-induced Ca2+ waves,Ceriani et al. 2016,No/Yes,No/Yes,Not reported
+BWV018,200.0,μm,ATP,Wave propagation distance,Supporting cells,Mouse cochlear,Maximum ATP wave range,Ceriani et al. 2016,No/Yes,No/Yes,Not reported
+BWV019,215.0,μm,ATP,Wave radius,Cortical astrocytes,Astrocytes,ATP-triggered calcium waves,Arcuino et al. 2002,No/Yes,No/Yes,"SD: 22.0, N: nan"
+BWV020,-33.1,mV,Potassium,Half-activation voltage,Inner hair cells,Mouse,P19 developmental stage,Marcotti et al. 2003,Yes/No,No/Yes,"SD: 1.7, N: 4.0"
+BWV021,50.0,μM/s,Chloride,Uptake velocity,Neurons,Various neurons,NKCC1-mediated uptake,Watanabe & Fukuda 2015,Yes/No,No/Yes,Not reported
+BWV022,100.0,m/s,Sodium,Action potential velocity,Myelinated neurons,Various,Fast neural transmission,General neuroscience,Yes/Yes,No/Yes,Not reported
+BWV023,1.0,m/s,Sodium,Action potential velocity,Unmyelinated neurons,Various,Slow neural transmission,General neuroscience,Yes/Yes,No/Yes,Not reported
+BWV024,100.0,μm,Nitric oxide,Diffusion distance,Various tissues,Various,NO diffusion range,Bradley et al. 2010,No/Yes,Variable/Variable,Not reported
+BWV025,0.08,μm/s,Bicoid,Advection velocity,Embryonic cytoplasm,Drosophila,Morphogen gradient formation,Hecht et al. 2009,Yes/No,No/Yes,Not reported
+BWV026,10.0,μm/s,ATP/ADP,Metabolic wave velocity,Metabolically active cells,Various cells,Glycolytic oscillations,Zhan et al. 2025,Yes/Yes,No/Yes,Not reported
+BWV027,1540.0,m/s,Mechanical/acoustic,Acoustic wave velocity,Embryonic tissue,Zebrafish,Yolk and blastula,Titov et al. 2023,Yes/Yes,No/Yes,"SD: nan, N: 4.0"

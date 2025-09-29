@@ -1,0 +1,28 @@
+Value,Unit,Chemical_Gradient,Parameter_Type,Std_Dev,N,Intra,Inter,Organism,Tissue_Type,Context,Injured,Healthy,Signaling_Type,Citation
+6.7,μm/s,Calcium,Wave velocity,3.48,7.0,Yes,No,Xenopus laevis,Embryonic tissue,Mechanical injury,Yes,No,Calcium wave,Tung et al. 2024
+5.28,μm/s,Calcium,Wave velocity,1.89,8.0,No,Yes,Xenopus laevis,Embryonic tissue,Inter-embryo communication,Mixed,Mixed,Calcium wave,Tung et al. 2024
+2.36,μm/s,Calcium,Wave velocity,1.66,9.0,Yes,No,Xenopus laevis,Embryonic tissue,Uninjured recipient embryo,No,Yes,Calcium wave,Tung et al. 2024
+21.0,μm/s,Calcium,Wave velocity,3.0,,Yes,Yes,Rat,Cortical astrocytes,ATP-triggered calcium waves,No,Yes,Intercellular calcium wave,Arcuino et al. 2002
+25.0,μm/s,Calcium,Wave velocity,,,Yes,No,Rat,Cortical astrocytes,Intracellular wave propagation,No,Yes,Intracellular calcium wave,Duchen 2000
+40.0,μm/s,Calcium,Wave velocity,,,Yes,No,Rat,Cortical astrocytes,Mitochondria depolarized,No,Yes,Intracellular calcium wave,Duchen 2000
+15.0,μm/s,Calcium,Wave velocity,,,Yes,No,Chick embryo,Circular smooth muscle,Embryonic gut peristalsis,No,Yes,Gap junction calcium wave,Chevalier 2018
+5.7,μm/s,Calcium,Wave velocity,,,Yes,No,Xenopus laevis,Egg cytoplasm,Fertilization wave (center),No,Yes,Calcium wave,Fontanilla & Nuccitelli 1998
+8.9,μm/s,Calcium,Wave velocity,,,Yes,No,Xenopus laevis,Egg cytoplasm,Fertilization wave (cortex),No,Yes,Calcium wave,Fontanilla & Nuccitelli 1998
+7.5,μm/s,Calcium,Wave velocity,0.05,,Yes,No,Xenopus laevis,Egg cytoplasm,Sperm-induced fertilization,No,Yes,Calcium wave,Nuccitelli et al. 1993
+9.7,μm/s,Calcium,Wave velocity,1.5,4.0,Yes,No,Xenopus laevis,Egg cytoplasm,Fertilization calcium wave (animal hemisphere),No,Yes,Calcium wave,Busa & Nuccitelli 1985
+350.0,μm/min,cAMP,Wave velocity,,,No,Yes,Dictyostelium,Amoeba collective,Aggregation phase,No,Yes,cAMP spiral wave,Ford et al. 2023
+175.0,μm/min,cAMP,Wave velocity,,,No,Yes,Dictyostelium,Amoeba collective,Late aggregation phase,No,Yes,cAMP spiral wave,Ford et al. 2023
+6.0,min,cAMP,Wave period,,,No,Yes,Dictyostelium,Amoeba collective,Early aggregation,No,Yes,cAMP oscillation,Hashimura et al. 2019
+4.0,min,cAMP,Wave period,,,No,Yes,Dictyostelium,Amoeba collective,Tight mound formation,No,Yes,cAMP oscillation,Hashimura et al. 2019
+50.0,μm/s,cAMP,Cell velocity response,,,No,Yes,Dictyostelium rasC-,Amoeba cells,50 nM cAMP pulses,No,Variable,Chemotactic response,Soll et al. 2004
+11.0,μm/s,ATP,Wave velocity,,,No,Yes,Mouse cochlear,Supporting cells,ATP-induced Ca2+ waves,No,Yes,ATP-calcium coupled wave,Ceriani et al. 2016
+200.0,μm,ATP,Wave propagation distance,,,No,Yes,Mouse cochlear,Supporting cells,Maximum ATP wave range,No,Yes,ATP release wave,Ceriani et al. 2016
+215.0,μm,ATP,Wave radius,22.0,,No,Yes,Astrocytes,Cortical astrocytes,ATP-triggered calcium waves,No,Yes,ATP-mediated calcium wave,Arcuino et al. 2002
+-33.1,mV,Potassium,Half-activation voltage,1.7,4.0,Yes,No,Mouse,Inner hair cells,P19 developmental stage,No,Yes,K+ channel activation,Marcotti et al. 2003
+50.0,μM/s,Chloride,Uptake velocity,,,Yes,No,Various neurons,Neurons,NKCC1-mediated uptake,No,Yes,Cl- transport,Watanabe & Fukuda 2015
+100.0,m/s,Sodium,Action potential velocity,,,Yes,Yes,Various,Myelinated neurons,Fast neural transmission,No,Yes,Na+ action potential,General neuroscience
+1.0,m/s,Sodium,Action potential velocity,,,Yes,Yes,Various,Unmyelinated neurons,Slow neural transmission,No,Yes,Na+ action potential,General neuroscience
+100.0,μm,Nitric oxide,Diffusion distance,,,No,Yes,Various,Various tissues,NO diffusion range,Variable,Variable,NO signaling,Bradley et al. 2010
+0.08,μm/s,Bicoid,Advection velocity,,,Yes,No,Drosophila,Embryonic cytoplasm,Morphogen gradient formation,No,Yes,Morphogen gradient,Hecht et al. 2009
+10.0,μm/s,ATP/ADP,Metabolic wave velocity,,,Yes,Yes,Various cells,Metabolically active cells,Glycolytic oscillations,No,Yes,Metabolic wave,Zhan et al. 2025
+1540.0,m/s,Mechanical/acoustic,Acoustic wave velocity,,4.0,Yes,Yes,Zebrafish,Embryonic tissue,Yolk and blastula,No,Yes,Acoustic wave,Titov et al. 2023
