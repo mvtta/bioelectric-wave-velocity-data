@@ -10,28 +10,17 @@ Bioelectric wave velocities preliminary data compilation
 
 This project aimed at a compilation of biochemical gradient and wave velocities across different chemical species in developmental biology contexts, with particular interest in signaling related phenomena. It contains 42 data points covering 14 different chemical gradients, for supporting a future study in which they will be used for calculating relationships between chemical gradient composition, tissue type, and resulting wave velocities in bioelectric developmental moments. There's a keen and expplicit interest imotivating this exercise from nematics perspective, thus a physics-based metheodological review from the sources of the data and some extra ones is found as an [annex](#annex-report-and-inventory-based-on-a-preliminary-review-of-measurement-and-modeling-tools-with-physics-based-approaches-for-understanding-and-controlling-bioelectric-signaling-in-developmental-biology). The purpose is to complement the csv files for extra context and for aiding in future projects.
 
-Image source: [[Funk & Scholkmann 2023]](#funk2023)
+Image source: [[Funk &amp; Scholkmann 2023]](#funk2023)
 
 *The significance of bioelectricity on all levels of organization of an organism*
 
 ![IMG_COVER](https://ars.els-cdn.com/content/image/1-s2.0-S0079610722001304-gr1.jpg "Electrostatics in the molecular domain. (a) Molecular electrostatic potential (MEP) maps of three neurotransmitters (calculated and visualized via the online simulation software molview.org). (b) MEP of SARS-CoV-2 spike protein binding receptor domain (BRD) and the human angiotensin-converting enzyme 2 (ACE2) receptor as well as the electrostatic interaction between both. Reprinted and modified from Xie et al. (Xie et al., 2020), with permission from the publisher. The white lines covering ACE2 like spikes represent the vectors of the electrical field caused by the charge distribution. In the zoomed-in image, the field lines (white lines) connect both macromolecules, visualizing the electrostatic interaction between both.")
 
-###### Scope
+#### Scope
 
 This dataset provides a compilation of biochemical gradient and wave velocities across different chemical species in developmental biology contexts, with particular interest in signaling related phenomena. It contains 42 data points covering 14 different chemical gradients, for supporting a future study in which they will be used for calculating relationships between chemical gradient composition, tissue type, and resulting wave velocities in bioelectric developmental moments.
 
-###### A table of contents
-
-- [Block](#######-Block-I)
-  * [Block](#######-Block-2)
-  * [Block](#######-Block-2)
-  * [Block](#######-Block-2)
-- [Block](#######-Block-I)
-  * [Block](#######-Block-2)
-  * [Block](#######-Block-2)
-  * [Block](#######-Block-2)
-
-## Dataset Summary
+##### Dataset Summary
 
 **Total Coverage:**
 
@@ -144,15 +133,15 @@ This dataset provides a compilation of biochemical gradient and wave velocities 
 | Chemical Gradient                | Measurements | Parameter Range                                                                                                               | Tissue Types                                         | Key Findings                                                                                                     | Citations                                                                                                                                  |
 | -------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Calcium Waves**          | 11 entries   | 2.36 - 40.00 μm/s                                                                                                            | Embryonic tissue, cortical astrocytes, smooth muscle | Inter-embryo communication: 5.28 μm/s; Injured tissue response: 6.7 μm/s; Tissue-dependent velocity variations | [[Tung et al. 2024]](#tung2024); [[Fontanilla &amp; Nuccitelli 1998]](#fontanilla1998); [[Chevalier 2018]](#chevalier2018); [[Jaffe 2010]](#jaffe2010) |
-| **cAMP Waves**             | 5 entries    | 50 μm/s - 350 μm/min                                                                                                        | Amoeba collectives, individual cells                 | Speed decreases during aggregation: 350 → 175 μm/min; Collective behavior influences propagation velocity      | [[Hashimura et al. 2019]](#hashimura2019); [[Ford et al. 2023]](#ford2023); [[Soll et al. 2004]](#soll2004)                                                                                                     |
-| **ATP Waves**              | 3 entries    | 11 μm/s wave velocity, 200 μm propagation distance                                                                          | Cochlear supporting cells, astrocytes                | ATP-induced calcium coupling mechanism; Critical role in intercellular communication                             | [[Ceriani et al. 2016]](#ceriani2016); [[Arcuino et al. 2002]](#arcuino2002)                                                                                                               |
-| **Potassium Gradients**    | 3 entries    | -33.1 to -20.3 mV activation voltages, 8.8 nA max current                                                                     | Inner hair cells during development                  | Developmental shift in K⁺ channel properties; Voltage-dependent activation changes with maturation              | [[Marcotti 2003]](#marcotti2003)                                                                                                                            |
+| **cAMP Waves**             | 5 entries    | 50 μm/s - 350 μm/min                                                                                                        | Amoeba collectives, individual cells                 | Speed decreases during aggregation: 350 → 175 μm/min; Collective behavior influences propagation velocity      | [[Hashimura et al. 2019]](#hashimura2019); [[Ford et al. 2023]](#ford2023); [[Soll et al. 2004]](#soll2004)                                         |
+| **ATP Waves**              | 3 entries    | 11 μm/s wave velocity, 200 μm propagation distance                                                                          | Cochlear supporting cells, astrocytes                | ATP-induced calcium coupling mechanism; Critical role in intercellular communication                             | [[Ceriani et al. 2016]](#ceriani2016); [[Arcuino et al. 2002]](#arcuino2002)                                                                     |
+| **Potassium Gradients**    | 3 entries    | -33.1 to -20.3 mV activation voltages, 8.8 nA max current                                                                     | Inner hair cells during development                  | Developmental shift in K⁺ channel properties; Voltage-dependent activation changes with maturation              | [[Marcotti 2003]](#marcotti2003)                                                                                                              |
 | **Chloride Gradients**     | 2 entries    | 50 μM/s uptake velocity, 8-second action potentials                                                                          | Neurons, embryonic skeletal muscle                   | NKCC1-mediated developmental regulation; Critical for action potential duration in development                   | [@Watanabe2015; @Steele1990]                                                                                                               |
-| **Sodium Waves**           | 2 entries    | 1-100 m/s action potential velocities                                                                                         | Myelinated vs unmyelinated neurons                   | 100-fold speed difference based on myelination status; Fundamental role in neural signal propagation             | [[Appukuttan et al. 2021]](#appukuttan2021)                                                                                                                          |
+| **Sodium Waves**           | 2 entries    | 1-100 m/s action potential velocities                                                                                         | Myelinated vs unmyelinated neurons                   | 100-fold speed difference based on myelination status; Fundamental role in neural signal propagation             | [[Appukuttan et al. 2021]](#appukuttan2021)                                                                                                   |
 | **Nitric Oxide Gradients** | 3 entries    | 100-150 μm diffusion distances, 20% concentration changes                                                                    | Motor neurons, muscle tissue                         | NO regulates axon branching during development; Spatial gradient formation over developmental distances          | [@Bradley2010; @Sugita2008]                                                                                                                |
-| **pH Gradients**           | 2 entries    | 0.1 pH units/μm steepness, pH 7.2 baseline                                                                                   | Migrating cells                                      | pH gradients drive directional cell migration; Local pH regulation affects cellular behavior                     | [[Li et al. 2024]](#li2024)                                                                                                                                  |
+| **pH Gradients**           | 2 entries    | 0.1 pH units/μm steepness, pH 7.2 baseline                                                                                   | Migrating cells                                      | pH gradients drive directional cell migration; Local pH regulation affects cellular behavior                     | [[Li et al. 2024]](#li2024)                                                                                                                   |
 | **Morphogen Gradients**    | 5 entries    | Bicoid: 0.08 μm/s advection velocity, 100 μm length scale; FGF8: 100 μm²/s diffusion coefficient, 200 μm gradient extent | Embryonic cytoplasm, extracellular space             | Bicoid morphogen advection and diffusion dynamics; FGF8 morphogen transport and gradient formation               | [@Hecht2009; @Wartlick2009]                                                                                                                |
-| **Magnesium Transport**    | 2 entries    | 2.5 mM intracellular concentration, 40 Å pore length                                                                         | CorA transporter, cellular cytoplasm                 | CorA transporter structural dynamics; Critical for cellular magnesium homeostasis                                | [[Dalmas et al. 2010]](#dalmas2010)                                                                                                                              |
+| **Magnesium Transport**    | 2 entries    | 2.5 mM intracellular concentration, 40 Å pore length                                                                         | CorA transporter, cellular cytoplasm                 | CorA transporter structural dynamics; Critical for cellular magnesium homeostasis                                | [[Dalmas et al. 2010]](#dalmas2010)                                                                                                           |
 
 ---
 
@@ -238,7 +227,7 @@ A very brief and non-extensive account of minimal definitions for a quick ramp-u
 
 #### Gradients
 
-Reaction–diffusion frameworks capture positional information and scaling (e.g., Wnt/β-catenin in Hydra and planaria), with emphasis on identifying morphogens, expanders, and dose–distance recruitment signals during regeneration.[[Guyomar & De Simone 2025]](#guyomar2025); [[Tung et al. 2024]](#tung2024)
+Reaction–diffusion frameworks capture positional information and scaling (e.g., Wnt/β-catenin in Hydra and planaria), with emphasis on identifying morphogens, expanders, and dose–distance recruitment signals during regeneration.[[Guyomar &amp; De Simone 2025]](#guyomar2025); [[Tung et al. 2024]](#tung2024)
 
 #### Bio-Electric Waves
 
@@ -300,17 +289,17 @@ Minimal models map multicellular voltage patterns to gene expression via causal 
 
 ### Methods for Velocity Computation and Signal Decoding
 
-| Category        | Method                    | What it computes                                      | Typical outputs                                | Notes                                                     |
-| --------------- | ------------------------- | ----------------------------------------------------- | ---------------------------------------------- | --------------------------------------------------------- |
-| Wave kinematics | Kymograph slope           | Front velocity along a line                           | μm/s or μm/min                               | Simple and robust for 1D paths or rings [[Herron et al. 2012]](#herron2012)     |
-| Wave kinematics | Optical flow              | Vector velocity field of fronts                       | Speed maps, curvature effects                  | Captures splitting/aniso beyond 1D [@Afrashteh2017]       |
-| Wave kinematics | PIV/cross-correlation     | Flow or wave transport velocity                       | Bulk or local velocities                       | Useful for high-speed flows or sparse tracers [@Meng2022] |
-| Voltage mapping | Electrochromic VSDs       | $\Delta F/F$ proportional to $\Delta V$ via Stark | $V_{\text{mem}}$ movies, conduction velocity | ANNINE and di-4-ANEPPS families [@Miller2016]             |
-| Voltage mapping | GEVIs                     | Fluorescent voltage reporters                         | $V_{\text{mem}}$ dynamics                    | Complements VSDs and enables genetics [@RoomeKuhn2020]    |
-| Modeling        | FitzHugh–Nagumo/Barkley  | Excitable wave fronts and spirals                     | $v$–$\kappa$ relations, dispersion        | Fits for calcium/cAMP media [@Barkley2008]                |
-| Modeling        | Active nematics PDEs      | Defect and director dynamics                          | Defect velocities, flows                       | Links defects to growth/curvature [@Balasubramaniam2022]  |
-| Modeling        | Mechanochemical couplings | Signal–stress coupling                               | Coevolution of shape/signal                    | Epithelial morphogenesis fits [@DiTalia2022]              |
-| Inference       | Information integration   | $V_{\text{mem}} \rightarrow$ gene mapping           | Causal integration metrics                     | Validated in Xenopus brain [@ManickaPaiLevin2023]         |
+| Category        | Method                    | What it computes                                      | Typical outputs                                | Notes                                                                   |
+| --------------- | ------------------------- | ----------------------------------------------------- | ---------------------------------------------- | ----------------------------------------------------------------------- |
+| Wave kinematics | Kymograph slope           | Front velocity along a line                           | μm/s or μm/min                               | Simple and robust for 1D paths or rings[[Herron et al. 2012]](#herron2012) |
+| Wave kinematics | Optical flow              | Vector velocity field of fronts                       | Speed maps, curvature effects                  | Captures splitting/aniso beyond 1D [@Afrashteh2017]                     |
+| Wave kinematics | PIV/cross-correlation     | Flow or wave transport velocity                       | Bulk or local velocities                       | Useful for high-speed flows or sparse tracers [@Meng2022]               |
+| Voltage mapping | Electrochromic VSDs       | $\Delta F/F$ proportional to $\Delta V$ via Stark | $V_{\text{mem}}$ movies, conduction velocity | ANNINE and di-4-ANEPPS families [@Miller2016]                           |
+| Voltage mapping | GEVIs                     | Fluorescent voltage reporters                         | $V_{\text{mem}}$ dynamics                    | Complements VSDs and enables genetics [@RoomeKuhn2020]                  |
+| Modeling        | FitzHugh–Nagumo/Barkley  | Excitable wave fronts and spirals                     | $v$–$\kappa$ relations, dispersion        | Fits for calcium/cAMP media [@Barkley2008]                              |
+| Modeling        | Active nematics PDEs      | Defect and director dynamics                          | Defect velocities, flows                       | Links defects to growth/curvature [@Balasubramaniam2022]                |
+| Modeling        | Mechanochemical couplings | Signal–stress coupling                               | Coevolution of shape/signal                    | Epithelial morphogenesis fits [@DiTalia2022]                            |
+| Inference       | Information integration   | $V_{\text{mem}} \rightarrow$ gene mapping           | Causal integration metrics                     | Validated in Xenopus brain [@ManickaPaiLevin2023]                       |
 
 ## Current Applications: Established Model Systems and Approaches
 
@@ -583,7 +572,7 @@ Based on the nematics–waves–regeneration framework, which appears both relev
 `<a id="afrashteh2017"></a>`**Afrashteh et al. 2017**
 Afrashteh, Navvab, et al. "Optical-flow analysis toolbox for characterization of spatiotemporal dynamics in mesoscale neural activity." *NeuroImage* 153 (2017): 58-74.
 
-<a id="appukuttan2021"></a>**Appukuttan et al. 2021**  
+`<a id="appukuttan2021"></a>`**Appukuttan et al. 2021**
 Appukuttan, Shailesh, et al. "The KiloNeuro simulation environment: a scalable and reproducible solution for large-scale neural network modeling." *Frontiers in Neuroinformatics* 15 (2021): 639378.`<a id="arcuino2002"></a>`**Arcuino et al. 2002**
 Arcuino, Gabriele, et al. "Intercellular calcium signaling mediated by point-source burst release of ATP." *Proceedings of the National Academy of Sciences* 99, no. 15 (2002): 9840-9845.
 
@@ -598,13 +587,13 @@ Bradley, Sarah A., et al. "Nitric oxide in development: perspectives and problem
 
 Busa, Walter B., and Richard Nuccitelli. "Metabolic regulation via intracellular pH." *American Journal of Physiology-Regulatory, Integrative and Comparative Physiology* 246, no. 4 (1985): R409-R438.
 
-<a id="ceriani2016"></a>**Ceriani et al. 2016**  
+`<a id="ceriani2016"></a>`**Ceriani et al. 2016**
 Ceriani, Federico, et al. "ATP-induced calcium waves in cochlear supporting cells: cellular mechanisms and developmental changes." *The Journal of Physiology* 594, no. 24 (2016): 7313-7333.
 
-<a id="chevalier2018"></a>**Chevalier 2018**  
+`<a id="chevalier2018"></a>`**Chevalier 2018**
 Chevalier, Nicolas R. "Calcium waves coordinate heart morphogenesis in the embryonic chick." *Development* 145, no. 7 (2018): dev159210.
 
-<a id="dalmas2010"></a>**Dalmas et al. 2010**  
+`<a id="dalmas2010"></a>`**Dalmas et al. 2010**
 Dalmas, Olivier, et al. "The Mg2+ transporter CorA from Thermotoga maritima: crystallographic insights into polyamine and Mg2+ binding." *Journal of Biological Chemistry* 285, no. 20 (2010): 15294-15303.
 
 DiTalia, Stefano, and Frederick R. Cross. "Waves in embryonic development." *Annual Review of Biophysics* 51 (2022): 327-353.
@@ -619,22 +608,22 @@ Fontanilla, Robert A., and Richard Nuccitelli. "Characterization of the sperm-in
 `<a id="ford2023"></a>`**Ford et al. 2023**
 Ford, Robert M., et al. "Spiral wave dynamics in Dictyostelium discoideum cAMP signaling." *Physical Review E* 107, no. 1 (2023): 014402.
 
-<a id="funk2023"></a>**Funk & Scholkmann 2023**  
+`<a id="funk2023"></a>`**Funk & Scholkmann 2023**
 Funk, Richard H. W., and Felix Scholkmann. "The significance of bioelectricity on all levels of organization of an organism. Part 1: From the subcellular level to cells." *Progress in Biophysics and Molecular Biology* 177 (2023): 185-201.
 
 `<a id="guyomar2025"></a>`**Guyomar & De Simone 2025**
 Guyomar, Celine, and Silvia De Simone. "Theoretical framework for morphogen gradients and active matter." *Nature Physics* 21 (2025): 123-134.
 
-<a id="hashimura2019"></a>**Hashimura et al. 2019**  
+`<a id="hashimura2019"></a>`**Hashimura et al. 2019**
 Hashimura, Hidekazu, et al. "cAMP wave propagation in migrating Dictyostelium cells." *Proceedings of the National Academy of Sciences* 116, no. 10 (2019): 4650-4659.
 
 `<a id="hecht2009"></a>`**Hecht et al. 2009**
 Hecht, Ingmar, et al. "Determining the scale of the Bicoid morphogen gradient." *Proceedings of the National Academy of Sciences* 106, no. 5 (2009): 1301-1306.
 
-<a id="herron2012"></a>**Herron et al. 2012**  
+`<a id="herron2012"></a>`**Herron et al. 2012**
 Herron, Todd J., et al. "Optical imaging of voltage and calcium in cardiac cells & tissues." *Circulation Research* 110, no. 4 (2012): 609-623.Howard, Jonathon. "Morphogen gradients in development." *Current Biology* 21, no. 23 (2011): R918-R920.
 
-<a id="jaffe2010"></a>**Jaffe 2010**  
+`<a id="jaffe2010"></a>`**Jaffe 2010**
 Jaffe, Lionel F. "Fast calcium waves." *Cell Calcium* 48, no. 2-3 (2010): 102-113.
 
 Kuhn, Bernd, et al. "High sensitivity of Stark-shift voltage-sensing dyes by one- or two-photon excitation near the red spectral edge." *Biophysical Journal* 87, no. 1 (2019): 631-639.
@@ -644,7 +633,7 @@ Lee, Kang J., et al. "Calcium transients in the early chick embryo." *Developmen
 `<a id="levin2017"></a>`**Levin & Pietak 2017**
 Levin, Michael, and Alexis M. Pietak. "The bioelectric code: reprogramming cancer and aging from the interface of mechanical and informational biology." *Frontiers in Cell and Developmental Biology* 5 (2017): 21.
 
-<a id="li2024"></a>**Li & Sun 2024**  
+`<a id="li2024"></a>`**Li & Sun 2024**
 Li, Wei, and Jianping Sun. "pH gradients in cell migration and chemotaxis." *Cell* 187, no. 15 (2024): 3925-3940.
 
 `<a id="machaty2024"></a>`**Machaty 2024**
@@ -653,27 +642,27 @@ Machaty, Zoltan. "Signal transduction during fertilization in mammals." *Theriog
 `<a id="manicka2023"></a>`**Manicka et al. 2023**
 Manicka, Santosh, et al. "The cognitive lens: a primer on conceptual tools for analysing information processing in developmental and regenerative morphogenesis." *Philosophical Transactions of the Royal Society B* 374, no. 1774 (2023): 20180369.
 
-<a id="marcotti2003"></a>**Marcotti et al. 2003**  
+`<a id="marcotti2003"></a>`**Marcotti et al. 2003**
 Marcotti, Walter, et al. "Developmental changes in the expression of potassium currents of embryonic, neonatal and mature mouse inner hair cells." *The Journal of Physiology* 548, no. 2 (2003): 383-400.
 
-<a id="mathews2018"></a>**Mathews et al. 2018**  
+`<a id="mathews2018"></a>`**Mathews et al. 2018**
 Mathews, Paul J., et al. "Voltage imaging with genetically encoded indicators." *Current Opinion in Chemical Biology* 45 (2018): 114-123.
 
-<a id="meng2022"></a>**Meng et al. 2022**  
+`<a id="meng2022"></a>`**Meng et al. 2022**
 Meng, Fanqing, et al. "Measuring velocities in biological systems using particle image velocimetry." *Methods in Cell Biology* 170 (2022): 45-78.
 
-<a id="miller2016"></a>**Miller 2016**  
+`<a id="miller2016"></a>`**Miller 2016**
 Miller, Eric W. "Small molecule fluorescent voltage indicators for studying membrane potential." *Current Opinion in Chemical Biology* 33 (2016): 74-80.
 
-<a id="nuccitelli1993"></a>**Nuccitelli et al. 1993**  
+`<a id="nuccitelli1993"></a>`**Nuccitelli et al. 1993**
 Nuccitelli, Richard, et al. "The sperm entry point defines the orientation of the calcium-induced contraction wave that directs the first cleavage plane and establishes the embryonic axis." *Development* 118, no. 3 (1993): 981-990.
 
-<a id="roome2020"></a>**Roome & Kuhn 2020**  
+`<a id="roome2020"></a>`**Roome & Kuhn 2020**
 Roome, Christopher J., and Bernd Kuhn. "Simultaneous dendritic voltage and calcium imaging and somatic recording from Purkinje neurons in awake mice." *Nature Communications* 11, no. 1 (2020): 3388.
 
 Silic, Masa R., and Michael Levin. "Bioelectric networks and the birth of mind." *BioEssays* 45, no. 8 (2023): 2300015.
 
-<a id="soll2004"></a>**Soll et al. 2004**  
+`<a id="soll2004"></a>`**Soll et al. 2004**
 Soll, David R., et al. "Computer-assisted three-dimensional reconstruction and motion analysis of living, crawling cells." *Computerized Medical Imaging and Graphics* 28, no. 1-2 (2004): 13-21.
 
 Steele, Patricia A. "Chloride action potentials in embryonic chick skeletal muscle." *The Journal of Physiology* 432 (1990): 235-254.
